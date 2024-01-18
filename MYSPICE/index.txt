@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <title>MYSPICE</title>
+  <style>
+    .page {
+      display: none;
+      padding-top: 80px;
+      padding-bottom: 60px;
+    }
+
+    body {
+      font-family: "Times New Roman", Georgia, Serif;
+      margin: 0;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      font-family: "Playfair Display";
+      letter-spacing: 5px;
+    }
+
+    /* Footer styles */
+    footer {
+      background-color: #808080; /* Grey background */
+      color: #ffffff; /* White text */
+      text-align: center;
+      padding: 5px;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+    <a href="#" onclick="showPage('page1')" class="w3-bar-item w3-button">MYSPICE</a>
+    <!-- Right-sided navbar links. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#" class="w3-bar-item w3-button">SAMBAL TUMBUK IKAN BILIS</a>
+      
+    </div>
+  </div>
+</div>
+
+<div class="page" id="page1" style="background-color:#ddcbb7;">
+  <!-- main -->
+  <div class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
+    <img class="w3-image" src="images/main.jpg" alt="Hamburger Catering" width="1000" height="500" style="display: block; margin-left: auto; margin-right: auto;">
+    <p class="w3-large w3-center ; padding-right: 30px; padding-left: 30px;">MYSPICE is produced “sambal tumbuk ikan bilis”. Sambal MYSPICE is carefully crafted with a variety </p>
+    <p class="w3-large w3-center ; padding-right: 30px; padding-left: 30px;">of fresh and high-quality ingredients, infused with<span class="w3-tag w3-light-grey">a blend of exotic</span>spices.</p>
+    
+  </div>
+
+  <div style="text-align: center; padding-top: 20px;">
+    <button onclick="showPage('page2')" class="w3-button w3-black">PAGE 2</button>
+  </div>
+</div>
+
+
+
+<div class="page" id="page2">
+  <div class="w3-content" style="max-width:1100px">
+    <!-- About Section -->
+    <div class="w3-row w3-padding-64">
+      <h1 class="w3-center">Our Product</h1>
+      <p class="w3-large w3-text-grey w3-hide-medium w3-center">There are two sizes of sambal which are big meal and baby meal. </p>
+      <div class="w3-col m6 w3-padding-large w3-hide-small">
+        <img src="images/BIGMEAL.png" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="400" height="550">
+      </div>
+
+      <div class="w3-col m6 w3-padding-large">
+        
+        <br>
+        <br>
+        <br>
+        <br>
+      
+      
+        <h1 class="w3-hide-medium w3-hide-small w3-xxxlarge w3-center" style="text-shadow: 2px 2px 4px #000;">BIG MEAL</h1>
+        <h5 class="w3-hide-large w3-center" style="white-space:nowrap; text-shadow: 2px 2px 4px #000;">BIG MEAL</h5>
+        <h3 class="w3-hide-medium w3-hide-small w3-center" style="text-shadow: 2px 2px 4px #000;">RM12.00</h3>
+        <h5 class="w3-hide-medium w3-hide-small w3-center" style="text-shadow: 2px 2px 4px #ff0000;">180 Gram</h5>
+      </div>
+    </div>
+    <hr>
+
+    <!-- Menu Section -->
+    <div class="w3-row w3-padding-64">
+      <div class="w3-col l6 w3-padding-large">
+        
+        <br>
+        <br>
+        <br>
+        <br>
+        <h1 class="w3-hide-medium w3-hide-small w3-xxxlarge w3-center" style="text-shadow: 2px 2px 4px #000;">BABY MEAL</h1>
+        <h5 class="w3-hide-large w3-center" style="white-space:nowrap; text-shadow: 2px 2px 4px #000;">BABY MEAL</h5>
+        <h3 class="w3-hide-medium w3-hide-small w3-center" style="text-shadow: 2px 2px 4px #000;">RM9.90</h3>
+        <h5 class="w3-hide-medium w3-hide-small w3-center" style="text-shadow: 2px 2px 4px #ff0000;">100 Gram</h5>
+      </div>
+      <div class="w3-col l6 w3-padding-large">
+        <img src="images/BABYMEAL.png" class="w3-round w3-image w3-opacity-min" alt="Menu" width="400" height="550">
+      </div>
+    </div>
+  </div>
+  <!-- Navigation Button -->
+  <div style="text-align: center; padding-top: 20px;">
+    <button onclick="showPage('page1')" class="w3-button w3-black" style="position: absolute; top: 60px; left: 20px;">BACK</button>
+    <button onclick="showPage('page3')" class="w3-button w3-black">PAGE 3</button>
+  </div>
+</div>
+
+<div class="page" id="page3">
+  <div class="w3-container w3-padding-64" style="text-align: center;">
+    <h1>OUR TEAM MEMBER</h1><br>
+    <p>There are 4 team members of MYSPICE. The main director of MYSPICE is Nurul Natasha Binti Rosdi. She is the person who leads the company and controls the overall management of the business.</p>
+    <p>The financial director is Nur Atikah Binti Abdul Talib. She is the person who is responsible for planning and overseeing the accounting functions and financial resources.</p>
+    <p>Next, Nurfatin Syafika Binti Mohd Atan is the marketing director. She is the person who builds the marketing strategy and is responsible for promotional activities.</p>
+    <p>The operations director is Nur Athirah Balqis Binti Mohamed Fauzi. She is the person who is responsible for managing and directing employees.</p>
+
+    <!-- Add a square image -->
+    <img src="images/team.png" alt="Team Member Image" style="width: 748px; height: 295px; border-radius: 50px; margin-top: 20px;">
+  </div>
+  <div style="text-align: center; padding-top: 20px;">
+    <button onclick="showPage('page2')" class="w3-button w3-black" style="position: absolute; top: 60px; left: 20px;">BACK</button>
+    <button onclick="showPage('page4')" class="w3-button w3-black">PAGE 4</button>
+  </div>
+</div>
+
+
+<div class="page" id="page4">
+  <div class="w3-container w3-padding-64" style="text-align: center;">
+    <h1>Contact Us</h1><br>
+    <p>What are you waiting for? Grab yours now! You can contact us through our social media on Instagram, Facebook & Tik Tok. Feel free to follow us on all of our social media! Thank you for supporting our business!</p>
+    <p class="w3-text-blue-grey w3-large"><b>Follow us on:</b></p>
+    <p><a href="https://www.instagram.com/officialspicy.my?igsh=MTQ2NTFra2oxdGN3NA==" target="_blank" class="w3-button w3-black">INSTAGRAM</a></p>
+    <p><a href="https://www.facebook.com/officialspice.my?mibextid=LQQJ4d" target="_blank" class="w3-button w3-black">FACEBOOK</a></p>
+    <p><a href="https://www.tiktok.com/@myspice4?_t=8j5GkTErLVK" target="_blank" class="w3-button w3-black">TIKTOK</a></p>
+  </div>
+
+  <!-- Navigation Button -->
+  <div style="padding-top: 20px;">
+    <button onclick="showPage('page3')" class="w3-button w3-black" style="position: absolute; top: 60px; left: 20px;">BACK</button>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer>
+  <h1>MYSPICE</h1>
+  <h4>Sambal Tumbuk Ikan Bilis</h4>
+</footer>
+
+<script>
+  // Ensure that the first page is visible initially
+  document.getElementById('page1').style.display = 'block';
+
+  function showPage(showId) {
+    var pages = document.querySelectorAll('.page');
+
+    pages.forEach(function (page) {
+      page.style.display = 'none';
+    });
+
+    var showPage = document.getElementById(showId);
+
+    if (showPage) {
+      showPage.style.display = 'block';
+    }
+  }
+</script>
+
+</body>
+</html>
